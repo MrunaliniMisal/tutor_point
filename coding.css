@@ -1,0 +1,96 @@
+/*header*/
+#header{
+    width: 100%;
+    height: 360px;
+    background-image: url("https://i.pinimg.com/originals/bc/33/97/bc339725948a0892df418c14305148ce.jpg");
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-brand {
+    padding-right: 30px;
+    padding-top: 100px;
+}
+.form-inline{
+    padding-left: 100px;
+}
+.button{
+    border: none;
+    color: white;
+    width: 100px;
+}
+.nav-item{
+    padding: 10px 10px 10px 10px;
+}
+.jumb{
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.jumb h2{
+    color: white;
+}
+.sjumb{
+    margin-top: 50px;
+    background-color: crimson;
+    margin-left: 550px;
+    margin-right: 550px;
+    color: white;
+}
+.sjumb span{
+    text-align: center;
+    font-size: 28px;
+    padding-left: 30px;
+}
+/*header*/
+
+/*card section*/
+.card-ul{
+    color: blue;
+}
+
+/*card section*/
+/*search box*/
+.search{
+    background-color: crimson;
+    color: white;
+    height: 120px;
+}
+
+.search .input-group{
+    padding: 20px 50px 20px 50px;
+
+}
+.search  .inpt{
+  background-color: black;
+  color: white;
+}
+.search .btn{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.search .btn:hover{
+    background-color: black;
+    color: white;
+}
+/*search box*/
+/*footer*/
+.foot{
+    margin-top: 20px;
+    background-color: lightblue;
+}
+.foot p{
+    text-align: left;
+}
+.styleul li a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+.icon{
+    color: blue;
+}
+/*footer*/
+@media screen and (max-width: 700px){
+    #header{
+       height: 700px;
+    }
+}
