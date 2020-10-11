@@ -1,0 +1,123 @@
+/*header*/
+#header{
+    width: 100%;
+    height: 360px;
+    background-image: url("https://image.freepik.com/free-photo/stack-books-black-background_23-2147846050.jpg");
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-brand {
+    padding-right: 30px;
+    padding-top: 100px;
+}
+.form-inline{
+    padding-left: 100px;
+}
+.button{
+    border: none;
+    color: white;
+    width: 100px;
+}
+.nav-item{
+    padding: 10px 10px 10px 10px;
+}
+.jumb{
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.jumb h2{
+    color: white;
+}
+.sjumb{
+    margin-top: 50px;
+    background-color: crimson;
+    margin-left: 600px;
+    margin-right: 600px;
+    color: white;
+}
+.sjumb span{
+    text-align: center;
+    font-size: 30px;
+    padding-left: 30px;
+}
+/*header*/
+
+/*books section*/
+.reg{
+    background-color: crimson;
+    height: 400px;
+    color: white;
+    width: 100%;
+}
+.reg h1{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.backg{
+    background-color: white;
+    width: 100%;
+}
+.innerreg{
+    background-color: crimson;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fm{
+    margin-top: 10px;
+}
+.u{
+    color: crimson;
+    font-size: 20px;
+}
+.btn{
+    border: 10px solid white;
+}
+/*books section*/
+/*search box*/
+.search{
+    background-color: crimson;
+    color: white;
+    height: 120px;
+}
+
+.search .input-group{
+    padding: 20px 50px 20px 50px;
+
+}
+.search  .inpt{
+  background-color: black;
+  color: white;
+}
+.search .btn{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.search .btn:hover{
+    background-color: black;
+    color: white;
+}
+/*search box*/
+/*footer*/
+.foot{
+    margin-top: 20px;
+    background-color: lightblue;
+}
+.foot p{
+    text-align: left;
+}
+.styleul li a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+.icon{
+    color: blue;
+}
+/*footer*/
+@media screen and (max-width: 700px){
+    #header{
+       height: 700px;
+    }
+}
